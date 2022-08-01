@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.container .header image {
+  width: 82px;
+  height: 24px;
+}
+.container .nav1, .container .nav2 {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 14px;
+  padding: 0 22px;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+.container .nav1 text, .container .nav2 text {
+  color: #71777D;
+  margin-right: 24px;
+}
+.container .nav1 .active, .container .nav2 .active {
+  color: #f00000;
+}
+.container .body {
+  background-color: #EFF1F3;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.container .body .top {
+  display: flex;
+  height: 46px;
+  align-items: center;
+  font-size: 16px;
+}
+.container .body .top text {
+  margin-right: 15px;
+}
+.container .body .cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .body .cont > view {
+  width: 48%;
+}
+.container .body .cont > view image {
+  width: 100%;
+  height: 65px;
+}
+.container .body .cont > view .ns {
+  display: flex;
+  font-size: 12px;
+  color: #ccc;
+}
+.container .body .cont > view .ns text {
+  margin-right: 5px;
+}
+.container .body .cont > view .price {
+  display: flex;
+  font-size: 14px;
+  color: #ccc;
+}
+.container .body .cont > view .price view {
+  color: red;
+}
+.container .body .cont > view .price view text {
+  font-weight: 700;
+}
+
